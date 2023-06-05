@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +7,44 @@
 }
 
 body {
-    font-family: Archivo, sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-weight: 300;
+    color: #3a3a3a
+}
+
+h1, h2 {
+    font-family: 'Merriweather', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 70%;
+}
+
+#reason-list {
+    list-style-type: none;
+    letter-spacing: 1px;
 }
