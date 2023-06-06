@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=Roboto+Slab:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -13,9 +13,9 @@ body {
 }
 
 h1, h2 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     color: black;
 }
 
@@ -64,5 +64,28 @@ p {
     width: 100%;
     height: 600px;
     overflow: hidden;
+    position: relative;
 }
 
+#defined h1 {
+    color: black;
+}
+
+#defined {
+    font-size: 60%;
+    font-family: 'Merriweather sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 400px;
+    height: 250px;
+
+    padding: 40px;
+
+    background-color: rgb(238, 130, 238, .7);
+
+    bottom: 160px;
+    right: 50%;
+
+    position: absolute;
+}
