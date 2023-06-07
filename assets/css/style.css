@@ -7,13 +7,13 @@
 }
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
     font-weight: 300;
     color: #3a3a3a
 }
 
 h1, h2 {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: black;
@@ -22,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -36,11 +37,11 @@ h1, h2 {
 }
 
 h4 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 p {
-    font-family: 'Merriweather', sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
     font-size: 70%;
 }
 
@@ -73,19 +74,116 @@ p {
 
 #defined {
     font-size: 60%;
-    font-family: 'Merriweather sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-family: "Roboto Slab", sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 1px;
 
     width: 400px;
     height: 250px;
 
     padding: 40px;
 
-    background-color: rgb(238, 130, 238, .7);
+    background-color: rgba(255, 255, 255, 0.3);
 
-    bottom: 160px;
-    right: 50%;
+    top: 150px;
+    left: 300px;
 
     position: absolute;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+.types h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.form-container {
+width: 400px;
+height: 250px;
+margin-left: 300px;
+margin-top: 150px;
+padding: 40px;
+background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+width: 80%;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.form-container input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    background-color: #fbbdfd;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#practises {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+  }
+
+.row .col {
+    flex-basis: 25%; /* Distribute the width equally for four columns */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+ol {
+    margin-left: 40px;
+    list-style-type: lower-roman; /* Remove default number styling */
+    counter-reset: meditation-counter; /* Reset the counter for custom numbering */
+}
+
+.types li {
+    counter-increment: meditation-counter; /* Increment the counter for each list item */
+    padding-left: 100px; /* Add some padding to create space between the number and content */
+    margin: 30px 0;
+}
+
+.types > li::before {
+    content: counter(meditation-counter);
+    display: inline-block;
+    width: 50px; /* Adjust width as needed */
+    text-align: right; /* Align the numbers to the right */
+    margin-left: -30px; /* Move the numbers back to align with the left margin of the list */
+}
+
+.types > h1 {
+    margin-left: 30px;
+}
+
+#reminder {
+    text-align: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 50%;
+    height: 50%;
 }
