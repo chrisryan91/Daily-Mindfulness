@@ -152,7 +152,7 @@ margin-bottom: 10px;
 .row .col {
     flex-basis: 25%; /* Distribute the width equally for four columns */
     padding: 10px;
-    box-sizing: border-box;
+    height: 279px;
     border: 1px solid #ddd;
 }
 
@@ -160,6 +160,7 @@ ol {
     margin-left: 40px;
     list-style-type: lower-roman; /* Remove default number styling */
     counter-reset: meditation-counter; /* Reset the counter for custom numbering */
+    color: black;
 }
 
 .types li {
@@ -186,4 +187,5 @@ ol {
     margin-left: 30px;
     width: 50%;
     height: 50%;
+    color: black;
 }
