@@ -6,6 +6,19 @@
     border: none;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    z-index: 999;
+}
+
+.padding2 {
+    padding-top: 75px;
+}
+
 body {
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 300;
@@ -110,7 +123,7 @@ footer {
     color: #3a3a3a;
 }
 
-.types h1 {
+#types h1 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -163,13 +176,13 @@ ol {
     color: black;
 }
 
-.types li {
+#types li {
     counter-increment: meditation-counter; /* Increment the counter for each list item */
     padding-left: 100px; /* Add some padding to create space between the number and content */
     margin: 30px 0;
 }
 
-.types > li::before {
+#types > li::before {
     content: counter(meditation-counter);
     display: inline-block;
     width: 50px; /* Adjust width as needed */
@@ -177,7 +190,7 @@ ol {
     margin-left: -30px; /* Move the numbers back to align with the left margin of the list */
 }
 
-.types > h1 {
+#types > h1 {
     margin-left: 30px;
 }
 
