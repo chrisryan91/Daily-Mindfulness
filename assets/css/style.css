@@ -20,8 +20,15 @@ header {
     z-index: 999;
 }
 
-.padding2 {
-    padding-top: 75px;
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
 }
 
 body {
@@ -43,24 +50,22 @@ h1, h2 {
     margin-left: 30px;
 }
 
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 50px;
-}
-
-h4 {
-    font-family: "Merriweather Sans", sans-serif;
-}
-
 p {
     font-family: "Merriweather Sans", sans-serif;
     font-size: 70%;
+}
+
+#reminder {
+    text-align: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 100%;
+    height: 50%;
+    color: black;
+}
+
+#reminder p {
+    margin-top: 5%;
 }
 
 #reason-list {
@@ -81,13 +86,9 @@ p {
     background: url(../images/clouds.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 100%;
     overflow: hidden;
     position: relative;
-}
-
-#defined h1 {
-    color: black;
 }
 
 #defined {
@@ -95,67 +96,25 @@ p {
     font-family: "Roboto Slab", sans-serif;
     text-transform: lowercase;
     letter-spacing: 1px;
-
     width: 400px;
-    height: 250px;
-
+    height: 270px;
     padding: 40px;
-
-    background-color: rgba(93, 158, 186, 0.3);
-
+    background-color: rgba(93, 158, 186, 0.6);
     top: 150px;
     left: 300px;
-
     position: absolute;
 }
 
-footer {
-    height: 150px;
+.padding2 {
+    padding-top: 75px;
 }
 
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+.padding2 > h1 {
+    margin-bottom: 2px;
 }
 
 #types h1 {
     font-family: 'Merriweather Sans', sans-serif;
-}
-
-.form-container {
-    float: right; 
-    width: 400px;
-    height: 250px;
-    margin-right: 150px;
-    margin-top: 150px;
-    padding: 40px;
-    background-color: rgba(93, 158, 186, 0.3)
-}
-
-.form-container input[type="text"],
-.form-container input[type="email"] {
-    width: 80%;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.form-container input[type="submit"] {
-    width: 80%;
-    padding: 10px;
-    background-color: rgba(93, 158, 186, 0.3);
-    color: black;
-    border: none;
-    cursor: pointer;
 }
 
 #practises {
@@ -169,7 +128,7 @@ footer {
   }
 
 .row .col {
-    flex-basis: 25%; /* Distribute the width equally for four columns */
+    flex-basis: 25%;
     padding: 10px;
     height: 279px;
     border: 1px solid #ddd;
@@ -177,41 +136,47 @@ footer {
 
 ol {
     margin-left: 40px;
-    list-style-type: lower-roman; /* Remove default number styling */
-    counter-reset: meditation-counter; /* Reset the counter for custom numbering */
+    list-style-type: lower-roman;
+    counter-reset: meditation-counter;
     color: black;
 }
 
 #types li {
-    counter-increment: meditation-counter; /* Increment the counter for each list item */
-    padding-left: 50px; /* Add some padding to create space between the number and content */
+    counter-increment: meditation-counter;
     margin: 30px 0;
 }
 
 #types > li::before {
     content: counter(meditation-counter);
     display: inline-block;
-    width: 50px; /* Adjust width as needed */
-    text-align: right; /* Align the numbers to the right */
-    margin-left: -30px; /* Move the numbers back to align with the left margin of the list */
+    width: 50px;
+    text-align: right; 
+    margin-left: -30px;
 }
 
 #types > h1 {
     margin-left: 30px;
 }
 
-#reminder {
-    text-align: 30px;
-    font-size: 20px;
-    margin-left: 30px;
+section h1 {
+    font-family: "Merriweather Sans", sans-serif;
+    padding-left: 30px;
+}
+
+#cloud-image2 {
+    background: url(../images/clouds.jpg) no-repeat center center;
+    background-size: cover;
     width: 100%;
-    height: 50%;
-    color: black;
+    height: 84%;
+    overflow: hidden;
+    position: relative;
 }
 
 .col h3 {
     text-align: center;
     color: black;
+    padding-top: 15px;
+    font-size: 120%;
 }
 
 .col p {
@@ -249,13 +214,9 @@ ol {
     background-size: cover;
 }
 
-#sign-up {
-    margin-bottom: -150px;
-}
-
 #circle-container2 {
-    margin-left: 160px;
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
     float: left;
     height: 400px;
     width: 400px;
@@ -271,4 +232,60 @@ ol {
     height: 100%;
     border-radius: 50%;
     background-size: cover;
+}
+
+#left-about h1 {
+    margin-left: 25px;
+}
+
+.col a {
+    color: black;
+}
+
+
+.form-container {
+    float: right; 
+    width: 400px;
+    height: 250px;
+    margin-right: 150px;
+    margin-top: 100px;
+    padding: 40px;
+    background-color: rgba(93, 158, 186, 0.3)
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    background-color: rgba(93, 158, 186, 0.3);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 0%;
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
