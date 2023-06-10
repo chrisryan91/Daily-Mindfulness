@@ -136,8 +136,7 @@ p {
 
 ol {
     margin-left: 40px;
-    list-style-type: lower-roman;
-    counter-reset: meditation-counter;
+    list-style-type: auto;
     color: black;
 }
 
@@ -173,8 +172,13 @@ section h1 {
 }
 
 .col p {
+    text-align: center;
     padding: 30px;
     font-size: 100%;
+    color: black;
+}
+
+.col a {
     color: black;
 }
 
@@ -231,11 +235,6 @@ section h1 {
     background-size: cover;
 }
 
-.col a {
-    color: black;
-}
-
-
 .form-container {
     float: right; 
     width: 400px;
@@ -244,6 +243,10 @@ section h1 {
     margin-top: 100px;
     padding: 40px;
     background-color: rgba(93, 158, 186, 0.3)
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
 }
 
 .form-container input[type="text"],
@@ -280,5 +283,13 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    #section {
+        width: 65%;
+        height: 1200px;
+    }
+
 }
