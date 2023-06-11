@@ -11,18 +11,9 @@ section {
     width: 100wh;
 }
 
-header {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 75px;
-    background: #fff;
-    z-index: 999;
-}
-
 #menu {
     font-size: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 #menu li {
@@ -216,8 +207,7 @@ section h1 {
 }
 
 #circle-container2 {
-    margin-left: 100px;
-    margin-top: 50px;
+    margin: 0 auto;
     float: left;
     height: 400px;
     width: 400px;
@@ -287,9 +277,26 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    #section {
-        width: 65%;
+    #method {
         height: 1200px;
+        margin: 0 auto;
     }
 
+    #left-element, #right-element{
+        float: left;
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    #sign-up {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #circle-container2a, .form-container {
+        clear: both;
+        width: 100%;
+        float: left;
+    }
 }
