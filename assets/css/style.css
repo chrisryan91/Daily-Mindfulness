@@ -6,13 +6,18 @@
     border: none;
 }
 
-html,body
-{
+html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+}
+
+body {
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 300;
+    color: #3a3a3a
 }
 
 section {
@@ -32,28 +37,22 @@ section {
     margin-right: 25px;
 }
 
-body {
-    font-family: "Merriweather Sans", sans-serif;
-    font-weight: 300;
-    color: #3a3a3a
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
-h1, h2 {
-    font-family: "Roboto Slab", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: black;
+#menu, #name {
+    line-height: 75px;
 }
 
-#logo {
-    float: left;
-    font-size: 200%;
-    margin-left: 30px;
-}
-
-p {
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 70%;
+#cloud-image {
+    background: url(../images/clouds.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #reminder {
@@ -69,27 +68,36 @@ p {
     margin-top: 5%;
 }
 
-#reason-list {
-    list-style-type: none;
+h1, h2 {
+    font-family: "Roboto Slab", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
+
+#name {
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 70%;
+}
+
+#defined {
+    font-size: 60%;
+    font-family: "Roboto Slab", sans-serif;
+    text-transform: lowercase;
     letter-spacing: 1px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#cloud-image {
-    background: url(../images/clouds.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
+    width: 400px;
+    height: 270px;
+    padding: 40px;
+    background-color: rgba(93, 158, 186, 0.6);
+    top: 150px;
+    left: 300px;
+    position: absolute;
 }
 
 #benefits {
@@ -126,20 +134,6 @@ p {
     color: black;
 }
 
-#defined {
-    font-size: 60%;
-    font-family: "Roboto Slab", sans-serif;
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    width: 400px;
-    height: 270px;
-    padding: 40px;
-    background-color: rgba(93, 158, 186, 0.6);
-    top: 150px;
-    left: 300px;
-    position: absolute;
-}
-
 #method h1 {
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -149,69 +143,6 @@ p {
     margin: 30px 0;
 }
 
-#practises {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.row {
-    display: flex;
-  }
-
-.row .col {
-    flex-basis: 25%;
-    padding: 10px;
-    height: 279px;
-    border: 1px solid #ddd;
-}
-
-ol {
-    margin-left: 40px;
-    list-style-type: auto;
-    color: black;
-}
-
-#types2 {
-    margin-top: 50px;
-}
-
-#types > h2 {
-    margin-left: 30px;
-}
-
-section h2 {
-    font-family: "Merriweather Sans", sans-serif;
-    padding-left: 30px;
-}
-
-#cloud-image2 {
-    background: url(../images/clouds2.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 84%;
-    overflow: hidden;
-    position: relative;
-}
-
-.col h3 {
-    text-align: center;
-    color: black;
-    padding-top: 15px;
-    font-size: 120%;
-}
-
-.col p {
-    text-align: center;
-    padding: 30px;
-    font-size: 100%;
-    color: black;
-}
-
-.col a {
-    color: black;
-}
-
 #left-element {
     float: left;
     width: 50%;
@@ -219,6 +150,12 @@ section h2 {
 
 #left-element h2 {
     margin-left: 25px;
+}
+
+ol {
+    margin-left: 40px;
+    list-style-type: auto;
+    color: black;
 }
 
 #right-element {
@@ -243,6 +180,57 @@ section h2 {
     height: 100%;
     border-radius: 50%;
     background-size: cover;
+}
+
+#types2 {
+    margin-top: 50px;
+}
+
+#types > h2 {
+    margin-left: 30px;
+}
+
+section h2 {
+    font-family: "Merriweather Sans", sans-serif;
+    padding-left: 30px;
+}
+
+#cloud-image2 {
+    background: url(../images/clouds2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 84%;
+    overflow: hidden;
+    position: relative;
+}
+
+.row {
+    display: flex;
+  }
+
+.row .col {
+    flex-basis: 25%;
+    padding: 10px;
+    height: 279px;
+    border: 1px solid #ddd;
+}
+
+.col h3 {
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    font-size: 120%;
+}
+
+.col p {
+    text-align: center;
+    padding: 30px;
+    font-size: 100%;
+    color: black;
+}
+
+.col a {
+    color: black;
 }
 
 #circle-container2 {
@@ -298,7 +286,6 @@ section h2 {
     cursor: pointer;
 }
 
-
 footer {
     margin-top: 0%;
     height: 150px;
@@ -320,6 +307,17 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 25px;
+    }
+
+    #defined {
+        left: 0;
+    }
+    
     #method {
         clear: both;
         height: 1200px;
@@ -341,6 +339,12 @@ footer {
         padding-top: 250px;
     }
 
+    #types2 {
+        height: fit-content;
+        clear: both;
+        margin: 0 auto;
+    }
+
     #sign-up {
         clear: both;
         width: 65%;
@@ -353,23 +357,6 @@ footer {
         clear: both;
         width: 100%;
         float: left;
-    }
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 25px;
-    }
-
-    #defined {
-        left: 0;
-    }
-
-
-    #types2 {
-        height: fit-content;
-        clear: both;
-        margin: 0 auto;
     }
 
     .col {
