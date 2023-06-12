@@ -186,7 +186,7 @@ section h2 {
 }
 
 #cloud-image2 {
-    background: url(../images/pexels-miguel-á-padriñán-19670.jpg) no-repeat center center;
+    background: url(../images/clouds2.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 84%;
@@ -239,7 +239,7 @@ section h2 {
 }
 
 #circle-containerbg1 {
-    background: url(../images/pexels-cup-of-couple-6634425.jpg) no-repeat center center;
+    background: url(../images/cup.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
@@ -262,7 +262,7 @@ section h2 {
 }
 
 #circle-containerbg2 {
-    background: url(../images/pexels-valeria-boltneva-87584.jpg) no-repeat center center;
+    background: url(../images/handwithlight.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
@@ -358,7 +358,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin: auto;
+        margin-left: 25px;
     }
 
     #defined {
@@ -385,7 +385,7 @@ footer {
       }
 
     #benefits {
-        padding-top: 250px;
+        height: 800px;
     }
     
     .col2 {
