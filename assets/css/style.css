@@ -92,6 +92,40 @@ p {
     position: relative;
 }
 
+#benefits {
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+.row2 {
+    padding-top: 50px;
+    display: flex;
+}
+
+.row2 .col2 {
+    flex-basis: 25%;
+    padding: 10px;
+    height: 279px;
+    border: 1px solid #ddd;
+}
+
+.col2 h3 {
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+    font-size: 120%;
+}
+
+.col2 p {
+    text-align: center;
+    font-size: 100%;
+    color: black;
+}
+
+.col2 a {
+    color: black;
+}
+
 #defined {
     font-size: 60%;
     font-family: "Roboto Slab", sans-serif;
@@ -104,10 +138,6 @@ p {
     top: 150px;
     left: 300px;
     position: absolute;
-}
-
-#method {
-    margin-top: 100px;
 }
 
 #method h1 {
@@ -142,7 +172,9 @@ ol {
     color: black;
 }
 
-
+#types2 {
+    margin-top: 50px;
+}
 
 #types > h2 {
     margin-left: 30px;
@@ -291,6 +323,7 @@ footer {
     #method {
         clear: both;
         height: 1200px;
+        margin-top: 100px;
     }
 
     #left-element, #right-element{
@@ -312,7 +345,8 @@ footer {
         clear: both;
         width: 65%;
         height: 1000px;
-        margin: 0 auto;
+        margin: 0;
+        margin-left: 10px;
     }
 
     #circle-container2a, .form-container {
@@ -331,6 +365,7 @@ footer {
         left: 0;
     }
 
+
     #types2 {
         height: fit-content;
         clear: both;
@@ -346,6 +381,22 @@ footer {
         flex-direction: column;
       }
       .row .col {
+        flex-basis: 100%;
+      }
+
+    #benefits {
+        padding-top: 250px;
+    }
+    
+    .col2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+      .row2 {
+        flex-direction: column;
+      }
+      .row2 .col2 {
         flex-basis: 100%;
       }
 
