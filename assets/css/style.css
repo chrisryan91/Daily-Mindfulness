@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&family=Roboto+Slab:wght@500&display=swap');
 
+/* to apply to all elements at desktop level */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-html,body {
+html {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -14,16 +16,20 @@ html,body {
     overflow-x: hidden; 
 }
 
+/* to apply to the body generally */
+
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 300;
     color: #3a3a3a
 }
 
-section {
-    height: 100vh;
-    width: 100wh;
-}
+/* css for the header element */
 
 #menu {
     font-size: 100%;
@@ -46,26 +52,11 @@ section {
     line-height: 75px;
 }
 
-#cloud-image {
-    background: url(../images/clouds.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
+/* to apply to all named elements */
 
-#reminder {
-    text-align: 30px;
-    font-size: 20px;
-    margin-left: 30px;
+section {
+    height: 100vh;
     width: 100%;
-    height: 50%;
-    color: black;
-}
-
-#reminder p {
-    margin-top: 5%;
 }
 
 h1, h2 {
@@ -75,15 +66,20 @@ h1, h2 {
     color: black;
 }
 
-#name {
-    float: left;
-    font-size: 200%;
-    margin-left: 30px;
-}
-
 p {
     font-family: "Merriweather Sans", sans-serif;
     font-size: 70%;
+}
+
+/* for the first section of the html - an image with a definition of mindfulness */
+
+#cloud-image {
+    background: url(../images/clouds.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
 }
 
 #defined {
@@ -99,6 +95,8 @@ p {
     left: 300px;
     position: absolute;
 }
+
+/* the second section is four divs each containing a benefit of mindfullness with a h2 element */
 
 #benefits {
     margin-top: 100px;
@@ -134,6 +132,8 @@ p {
     color: black;
 }
 
+/* the third section is two vertical divs side by side - one containing an ordered list with a paragraph beneath it, and another with a circular div with a background image */
+
 #method h1 {
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -156,6 +156,19 @@ ol {
     margin-left: 40px;
     list-style-type: auto;
     color: black;
+}
+
+#reminder {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 100%;
+    height: 50%;
+    color: black;
+}
+
+#reminder p {
+    margin-top: 5%;
 }
 
 #right-element {
@@ -181,6 +194,8 @@ ol {
     border-radius: 50%;
     background-size: cover;
 }
+
+/* the forth section is two divs each containing a seperate four divs arranged as two rows of four divs each - with a background image" */
 
 #types2 {
     margin-top: 50px;
@@ -232,6 +247,8 @@ section h2 {
 .col a {
     color: black;
 }
+
+/* the final section consists of two divs arranged vertically - the left div has a circular div with a background image, the second div has a sign up form for a newsletter" */
 
 #circle-container2 {
     margin: 0 auto;
@@ -306,7 +323,11 @@ footer {
     color: black;
 }
 
+/* media queries for tablets and mobile devices */
+
 @media screen and (max-width: 1200px) {
+
+    /* for the header */
 
     #menu {
         clear: left;
@@ -314,10 +335,33 @@ footer {
         margin-left: 25px;
     }
 
+    /* for the first section of the body */
+
     #defined {
         left: 0;
     }
+
+    /* for the second section of the body */
+
+    #benefits {
+        height: 800px;
+    }
     
+    .col2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row2 {
+        flex-direction: column;
+      }
+      
+    .row2 .col2 {
+        flex-basis: 100%;
+      }
+    
+    /* for the third section of the body */
+
     #method {
         clear: both;
         height: 1200px;
@@ -339,11 +383,29 @@ footer {
         padding-top: 250px;
     }
 
+
+    /* for the fourth section of the body */ 
+
     #types2 {
         height: fit-content;
         clear: both;
         margin: 0 auto;
     }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row {
+    flex-direction: column;
+    }
+
+    .row .col {
+        flex-basis: 100%;
+    }
+
+    /* for the final section of the body */
 
     #sign-up {
         clear: both;
@@ -358,33 +420,4 @@ footer {
         width: 100%;
         float: left;
     }
-
-    .col {
-        display: flex;
-        flex-direction: column;
-    }
-    
-      .row {
-        flex-direction: column;
-      }
-      .row .col {
-        flex-basis: 100%;
-      }
-
-    #benefits {
-        height: 800px;
-    }
-    
-    .col2 {
-        display: flex;
-        flex-direction: column;
-    }
-    
-      .row2 {
-        flex-direction: column;
-      }
-      .row2 .col2 {
-        flex-basis: 100%;
-      }
-
 }
