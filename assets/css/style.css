@@ -26,7 +26,8 @@ body {
     overflow-x: hidden; 
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 300;
-    color: #3a3a3a
+    color: #3a3a3a;
+    text-decoration: none;
 }
 
 /* css for the header element */
@@ -34,7 +35,7 @@ body {
 #menu {
     font-size: 100%;
     letter-spacing: 1px;
-    margin-left: 25px;
+    margin-top: -40px;
 }
 
 #menu li {
@@ -50,6 +51,11 @@ body {
 
 #menu, #name {
     line-height: 75px;
+}
+
+#name {
+    margin-left: 25px;
+    
 }
 
 /* to apply to all named elements */
