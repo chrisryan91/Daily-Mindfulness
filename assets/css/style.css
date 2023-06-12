@@ -124,7 +124,8 @@ p {
 .col2 h3 {
     text-align: center;
     color: black;
-    padding-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 120%;
 }
 
