@@ -55,7 +55,7 @@ body {
 
 #name {
     margin-left: 25px;
-    
+    text-decoration: none;
 }
 
 /* to apply to all named elements */
@@ -96,7 +96,7 @@ p {
     width: 400px;
     height: 270px;
     padding: 40px;
-    background-color: rgba(93, 158, 186, 0.6);
+    background-color: rgba(93, 158, 186, 0.8);
     top: 150px;
     left: 300px;
     position: absolute;
