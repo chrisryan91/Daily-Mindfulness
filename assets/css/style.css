@@ -435,10 +435,13 @@ footer {
         width: 400px;
     }
 
+    /*more media queries for smaller screen sizes */
+
     @media screen and (max-width: 500px) {
 
         header {
             font-size: 60%;
+            font-weight: 300;
         }
 
         #defined {
@@ -446,20 +449,57 @@ footer {
             height: fit-content;
         }
 
+        #left-element {
+            margin-left: 25px;
+        }
+
         #reminder {
             width: fit-content;
+            margin-right: 20px;
         }
 
         #circle-container1 {
-            width: 150%;
+            height: 200px;
+            width: 200px;
+        }
+
+        #sign-up {
+            margin-left: 0px;
+        }
+
+        #circle-container2 {
+            width: 200px;
+            height: 200px;
         }
 
         .form-container {
             width: 100%;
         }
 
-        #circle-container2 {
-            width: 75%;
+        .form-container h2 {
+            font-size: 70%;
         }
     }
+
+    /* final series of media queries for smallest screen sizes*/
+
+    @media screen and (max-width: 400px) {
+
+        #defined {
+            font-size: 50%;
+            padding: 10px 5px 10px;
+        }
+
+        #benefits h2 {
+            padding-top: 100px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+            
+        header {
+            font-size: 40%;
+        }
+    }
+
 }
