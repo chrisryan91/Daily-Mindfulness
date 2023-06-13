@@ -9,7 +9,7 @@ Features:
         - Menu with links to home and each of the four pages: home, benefits, types and sign-up.
     
     Header:
-        - The header contains the logo and name of the page style simply linked to the homepage. The black front on white background for me suggested a simplicity that reflected the practise of mindfulness. 
+        - The header contains the logo and name of the page style simply linked to the homepage. The black front on white background for me suggests a simplicity that reflects the practise of mindfulness. 
         - The navigation links to the side links to the rest of the page for quick access. 
         - This section serves as a basic introduction to the website. 
 

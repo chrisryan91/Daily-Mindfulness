@@ -105,8 +105,8 @@ p {
 /* the second section is four divs each containing a benefit of mindfullness with a h2 element */
 
 #benefits {
+    height: 60%;
     margin-top: 100px;
-    margin-bottom: -100px;
 }
 
 .row2 {
@@ -351,7 +351,7 @@ footer {
     /* for the second section of the body */
 
     #benefits {
-        height: 800px;
+        height: fit-content;
     }
     
     .col2 {
@@ -371,8 +371,7 @@ footer {
 
     #method {
         clear: both;
-        height: 1200px;
-        margin-top: 100px;
+        height: fit-content;
     }
 
     #left-element, #right-element{
@@ -382,7 +381,7 @@ footer {
     }
 
     #right-element {
-        padding-left: 40px;
+        padding-left: 20px;
         padding-bottom: 50px;
     }
 
@@ -390,6 +389,9 @@ footer {
         padding-top: 250px;
     }
 
+    #reminder {
+        width: 50%;
+    }
 
     /* for the fourth section of the body */ 
 
@@ -416,9 +418,8 @@ footer {
 
     #sign-up {
         clear: both;
-        width: 65%;
         height: 1000px;
-        margin: 0;
+        margin-top: 50px;
         margin-left: 10px;
     }
 
@@ -426,5 +427,38 @@ footer {
         clear: both;
         width: 100%;
         float: left;
+    }
+
+    .form-container {
+        padding-left: 30px;
+        width: 400px;
+    }
+
+    @media screen and (max-width: 500px) {
+
+        header {
+            font-size: 60%;
+        }
+
+        #defined {
+            width: fit-content;
+            height: fit-content;
+        }
+
+        #reminder {
+            width: fit-content;
+        }
+
+        #circle-container1 {
+            width: 150%;
+        }
+
+        .form-container {
+            width: 100%;
+        }
+
+        #circle-container2 {
+            width: 75%;
+        }
     }
 }
