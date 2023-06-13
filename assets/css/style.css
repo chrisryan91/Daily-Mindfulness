@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth !important;
 }
 
 html {
@@ -14,7 +15,7 @@ html {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 /* to apply to the body generally */
