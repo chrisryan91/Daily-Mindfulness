@@ -109,11 +109,16 @@ Unfixed Bugs
 
 - Due to this, the responsiveness of the site begins to break down below 300px. 
   
+- The webpage also does not respond neatly to very wide monitor sizes. I fixed this using min-height in CSS for larger screens but for very wide yet thin viewports in remains unresponsive as the sections overlap. 
+  
 Deployment 
 ==========
 
 - The full webpage was deployed to GitHub pages. 
-- The live link can be found here: 
+  
+- The live link can be found here: https://chrisryan91.github.io/Daily-Mindfulness/
+  
+- Once deployed, I noticed some issues regarding the responsiveness of larger screens. I was then able to fix the issue and pushed the code back onto GitHub. This changed the hosted webpage.
 
 Credits
 =======
@@ -126,11 +131,18 @@ Content
 - The icons were taken from Font Awesome 
 
 - The fonts were taken from Google Fonts
+  
 
 Media 
 ------
 
 - All four photographs were taken from pexels.com
+
+
+Acknowledgements
+================
+
+- 
 
 
 
