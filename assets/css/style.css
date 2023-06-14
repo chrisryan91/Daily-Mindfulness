@@ -148,7 +148,7 @@ p {
 /* the third section is two vertical divs side by side - one containing an ordered list with a paragraph beneath it, and another with a circular div with a background image */
 
 #method {
-    height: 100%;
+    min-height: 100%;
 }
 
 #method h1 {
@@ -216,7 +216,7 @@ ol {
 
 #types2 {
     margin-top: 50px;
-    height: 100%;
+    min-height: 100%;
 }
 
 #types > h2 {
@@ -268,6 +268,9 @@ section h2 {
 
 /* the final section consists of two divs arranged vertically - the left div has a circular div with a background image, the second div has a sign up form for a newsletter" */
 
+#sign-up {
+    min-height: 80%;
+}
 #circle-container2 {
     margin: 0 auto;
     float: left;
