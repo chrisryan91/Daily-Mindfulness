@@ -88,7 +88,7 @@ p {
 }
 
 #cloud-image {
-    background: url(../images/clouds.jpg) no-repeat center center;
+    background: url(../images/clouds.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -208,7 +208,7 @@ ol {
 }
 
 #circle-containerbg1 {
-    background: url(../images/cup.jpg) no-repeat center center;
+    background: url(../images/cup.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
@@ -231,7 +231,7 @@ section h2 {
 }
 
 #cloud-image2 {
-    background: url(../images/clouds2.jpg) no-repeat center center;
+    background: url(../images/clouds2.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 84%;
@@ -291,7 +291,7 @@ section h2 {
 }
 
 #circle-containerbg2 {
-    background: url(../images/handwithlight.jpg) no-repeat center center;
+    background: url(../images/handwithlight.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
     background-size: cover;
