@@ -4,7 +4,7 @@ The website also offers a sign-up page for a newsletter for the user to keep upd
 
 The site is targeted to anybody who wants to learn about mindfulness and reinforces how to integrate it into life recognising mindful meditation as a habit that needs to be practised daily. It is targeted to anybody interested. 
 
-![Screenshot of responsivity](assets/images/amiresponsive.jpg)
+![Screenshot of responsivity](assets/images/amiresponsive.png)
 
 Features
 ========
@@ -19,7 +19,7 @@ Header & Navigation
 - This section serves as a basic introduction to the website. 
 - In response to smaller screen sizes, the navigation menu falls below the logo. Both the logo and the menu then decrease in size incrementally.
 
-![Screenshot of Header](assets/images/header.jpg)
+![Screenshot of Header](assets/images/header.png)
 
 Section 1
 ---------
@@ -29,7 +29,7 @@ Section 1
   - The box has a colour of opaque light blue which appears darker due to the background image.
   - In response to smaller screen sizes, the box containing hugs the left side of the page. Its text size decreases incrementally.
 
-![Screenshot of Definition Section](assets/images/definitionsection.jpg)
+![Screenshot of Definition Section](assets/images/definitionsection.png)
 
 Section 2
 ---------
@@ -39,7 +39,7 @@ Section 2
 - At the end of each paragraph there is an external link which links to further reading on the benefit to be experienced from mindful practise. 
 - In response to smaller screen sizes, the four divs align vertically.
 
-![Screenshot of Benefits Section](assets/images/benefitssection.jpg)
+![Screenshot of Benefits Section](assets/images/benefitssection.png)
     
 Section 3
 ---------
@@ -50,7 +50,7 @@ Section 3
 - The second div contains an image of a Tibetan Singing bowl in a circular div with a circular border. 
 - In response to smaller screen sizes, the left div floats left beneath the right div. The size of the image then decreases incrementally.
 
-![Screenshot of Method Section](assets/images/methodsection.jpg)
+![Screenshot of Method Section](assets/images/methodsection.png)
 
 Section 4: 
 ---------
@@ -63,7 +63,7 @@ Section 4:
 - Closing the paragraph element is an external link  to a video giving examples or further instructions.
 - In response to smaller screen sizes, the eight divs collapse into one column. All the divs then stack on top of one another.
 
-![Screenshot of Types Section](assets/images/typessection.jpg)
+![Screenshot of Types Section](assets/images/typessection.png)
 
 Section 5
 ---------
@@ -74,7 +74,7 @@ Section 5
 - The left div contains a sign-up form with three input elements. The first two are required name ad  email text input boxes with placeholders. The third is a submit button with the word Subscribe as its value.
 - In response to smaller screen sizes, the left element with the form falls below the right element with the background image. Both reduce in size incrementally as the page sizes decrease.
 
-![Screenshot of Sign-In Section](assets/images/signinsection.jpg)
+![Screenshot of Sign-In Section](assets/images/signinsection.png)
 
 Footer
 ------
@@ -119,6 +119,17 @@ Deployment
 - The live link can be found here: https://chrisryan91.github.io/Daily-Mindfulness/
   
 - Once deployed, I noticed some issues regarding the responsiveness of larger screens. I was then able to fix the issue and pushed the code back onto GitHub. This changed the hosted webpage.
+
+Validator Testing
+=================
+
+- After using GitHub Pages to create the website, I used the Lighthouse feature in Developer Tools with this assessment of the pages SEO, Accessibility and Performance:
+
+![First Lighthouse Report](assets/images/64performance.png)
+
+- My score was brought down with the use of .jpeg files that were too big. I converted the files using an online conversion tool into .png format. 
+
+![Second Lighthouse Report]()
 
 Credits
 =======
