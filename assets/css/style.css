@@ -272,8 +272,8 @@ section h2 {
 }
 
 #circle-container2a {
-    margin-left: 150px;
     margin-top: 100px;
+    margin-left: 100px;
 }
 
 #circle-containerbg2 {
@@ -423,7 +423,6 @@ footer {
         clear: both;
         height: 1000px;
         margin-top: 50px;
-        margin-left: 10px;
     }
 
     #circle-container2a, .form-container {
@@ -432,8 +431,11 @@ footer {
         float: left;
     }
 
+        #circle-container2a {
+            margin-left: 0px;
+        }
+
     .form-container {
-        padding-left: 30px;
         width: 400px;
     }
 
