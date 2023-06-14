@@ -63,8 +63,8 @@ body {
 /* to apply to all named elements */
 
 section {
-    height: 600px;
-    width: 1200px;
+    min-height: 100%;
+    width: 100%;
 }
 
 h1, h2 {
@@ -80,6 +80,10 @@ p {
 }
 
 /* for the first section of the html - an image with a definition of mindfulness */
+
+#aboutus-definition {
+    height: 100%;
+}
 
 #cloud-image {
     background: url(../images/clouds.jpg) no-repeat center center;
@@ -107,7 +111,7 @@ p {
 /* the second section is four divs each containing a benefit of mindfullness with a h2 element */
 
 #benefits {
-    height: 60%;
+    min-height: 60%;
     margin-top: 100px;
 }
 
@@ -142,6 +146,10 @@ p {
 }
 
 /* the third section is two vertical divs side by side - one containing an ordered list with a paragraph beneath it, and another with a circular div with a background image */
+
+#method {
+    height: 100%;
+}
 
 #method h1 {
     font-family: 'Merriweather Sans', sans-serif;
