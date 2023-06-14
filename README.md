@@ -14,13 +14,12 @@ Header & Navigation
 
 - Logo to the right linked to the top of the page
 - Menu with links to home and each of the four pages: home, benefits, types and sign-up.
-- The header contains the logo and name of the page style simply linked to the homepage. The black front on white background for me suggests a simplicity that reflects the practise of mindfulness. 
+- The header contains the logo and name of the page. The logo links to the homepage. The black front on white background for me suggests a simplicity that reflects the practise of mindfulness. 
 - The navigation links to the side links to the rest of the page for quick access. 
 - This section serves as a basic introduction to the website. 
 - In response to smaller screen sizes, the navigation menu falls below the logo. Both the logo and the menu then decrease in size incrementally.
 
 ![Screenshot of Header](assets/images/header.png)
-
 Section 1
 ---------
 
@@ -92,6 +91,8 @@ Features Left to Implement
 Validator Testing
 ========
 
+- I confirmed that the form works as it requires entries in every field, will only accept email and that the submit button works.
+
 HTML
 ----
 - No errors were returned when passing through the official WC3 validator
@@ -100,28 +101,10 @@ CSS
 ----
 - No errors were found when passing through the official Jigsaw validator
 
-Unfixed Bugs
-============
 
-- For the #right-element div in the #method section of the project, I struggled to centre align the #circlecontainer div within it when making the page responsive to smaller screen sizes. I fixed the problem by floating it to the left and decreasing the width and height of the #circlecontainer div as the screen responds to smaller sizes. 
 
-- Similarly, the #left-element div in the #method section of the project, I again struggled with the same problem: centre aligning a div within a div within a div. The second #circlecontainer div would not centre align so I floated it left, decreasing its width and height in response to smaller screen size. 
-
-- Due to this, the responsiveness of the site begins to break down below 300px. 
-  
-- The webpage also does not respond neatly to very wide monitor sizes. I fixed this using min-height in CSS for larger screens but for very wide yet thin viewports in remains unresponsive as the sections overlap. 
-  
-Deployment 
-==========
-
-- The full webpage was deployed to GitHub pages. 
-  
-- The live link can be found here: https://chrisryan91.github.io/Daily-Mindfulness/
-  
-- Once deployed, I noticed some issues regarding the responsiveness of larger screens. I was then able to fix the issue and pushed the code back onto GitHub. This changed the hosted webpage.
-
-Validator Testing
-=================
+Lighthouse on Developer Tools
+---------------------------
 
 - After using GitHub Pages to create the website, I used the Lighthouse feature in Developer Tools with this assessment of the pages SEO, Accessibility and Performance:
 
@@ -129,31 +112,60 @@ Validator Testing
 
 - My score was brought down with the use of .jpeg files that were too big. I converted the files using an online conversion tool into .png format. 
 
-![Second Lighthouse Report]()
+![Second Lighthouse Report](assets/images/81performance.png)
 
+- The second performance was performed for desktop and the score was 17 points from 100 more. Despite converting the jpg images, the png images could still be decreased in size.
+
+Unfixed Bugs
+============
+
+- For the #right-element div in the #method section of the project, I struggled to centre align the #circlecontainer div within it when making the page responsive to smaller screen sizes. I fixed the problem by floating it to the left and decreasing the width and height of the #circlecontainer div as the screen responds to smaller sizes. 
+
+- Similarly, the #left-element div in the #method section of the project, I again struggled with the same problem: centre aligning a div within a div within a div. The second #circlecontainer div would not centre align so I floated it left, decreasing its width and height in response to smaller screen size. 
+ 
+- Due to this, the responsiveness of the site begins to break down below 300px. 
+  
+- The webpage also does not respond neatly to very wide monitor sizes. I fixed this using min-height in CSS for larger screens but for very wide yet thin viewports in remains unresponsive as the sections overlap. 
+  
+- Given the performance scores from the Lighthouse report, I need to decrease further some of the image sizes.
+  
+
+Deployment 
+==========
+
+- The full webpage was deployed to GitHub pages. 
+  
+- The live link can be found here: https://chrisryan91.github.io/Daily-Mindfulness/
+  
 Credits
-=======
+===============
 
+Code
+--------
+- The header and footer design was taken from the LoveRunning project. 
+  
+- W3C Validator Markup service to validate the CSS and HTML
+
+- Lighthouse on Developer Tools on Chrome 
+  
 Content 
 -------
 
-- The header and footer design was taken from the LoveRunning project. 
+- The icons were taken from Font Awesome.
 
-- The icons were taken from Font Awesome 
+- The fonts were taken from Google Fonts.
 
-- The fonts were taken from Google Fonts
-  
-
-Media 
+Media
 ------
-
+  
 - All four photographs were taken from pexels.com
 
+Acknowledgements 
+--------------
+ - My mentor for encouragement and feedback, giving me advice on design and helping me with definitions
+ - Tutor support and Code Institute Slack Channel
 
-Acknowledgements
-================
 
-- 
 
 
 
