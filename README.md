@@ -17,7 +17,7 @@ Header & Navigation
 - This section serves as a basic introduction to the website. 
 - In response to smaller screen sizes, the navigation menu falls below the logo. Both the logo and the menu then decrease in size incrementally.
 
-![Screenshot of Header](../MilestoneProject1/assets/images/header.jpg)
+![Screenshot of Header](../Daily-Mindfulness/assets/images/header.jpg)
 
 Section 1
 ---------
@@ -27,7 +27,7 @@ Section 1
   - The box has a colour of opaque light blue which appears darker due to the background image.
   - In response to smaller screen sizes, the box containing hugs the left side of the page. Its text size decreases incrementally.
 
-![Screenshot of Definition Section](../MilestoneProject1/assets/images/definitionsection.jpg)
+![Screenshot of Definition Section](../Daily-Mindfulness/assets/images/definitionsection.jpg)
 
 Section 2
 ---------
@@ -37,7 +37,7 @@ Section 2
 - At the end of each paragraph there is an external link which links to further reading on the benefit to be experienced from mindful practise. 
 - In response to smaller screen sizes, the four divs align vertically.
 
-![Screenshot of Benefits Section](../MilestoneProject1/assets/images/benefitssection.jpg)
+![Screenshot of Benefits Section](../Daily-Mindfulness/assets/images/benefitssection.jpg)
     
 Section 3
 ---------
@@ -48,7 +48,7 @@ Section 3
 - The second div contains an image of a Tibetan Singing bowl in a circular div with a circular border. 
 - In response to smaller screen sizes, the left div floats left beneath the right div. The size of the image then decreases incrementally.
 
-![Screenshot of Method Section](../MilestoneProject1/assets/images/methodsection.jpg)
+![Screenshot of Method Section](../Daily-Mindfulness/assets/images/methodsection.jpg)
 
 Section 4: 
 ---------
@@ -61,7 +61,7 @@ Section 4:
 - Closing the paragraph element is an external link  to a video giving examples or further instructions.
 - In response to smaller screen sizes, the eight divs collapse into one column. All the divs then stack on top of one another.
 
-![Screenshot of Types Section](../MilestoneProject1/assets/images/typessection.jpg)
+![Screenshot of Types Section](../Daily-Mindfulness/assets/images/typessection.jpg)
 
 Section 5
 ---------
@@ -72,7 +72,7 @@ Section 5
 - The left div contains a sign-up form with three input elements. The first two are required name ad  email text input boxes with placeholders. The third is a submit button with the word Subscribe as its value.
 - In response to smaller screen sizes, the left element with the form falls below the right element with the background image. Both reduce in size incrementally as the page sizes decrease.
 
-![Screenshot of Sign-In Section](../MilestoneProject1/assets/images/signinsection.jpg)
+![Screenshot of Sign-In Section](../Daily-Mindfulness/assets/images/signinsection.jpg)
 
 Footer
 ------
@@ -80,7 +80,7 @@ Footer
 - The footer contains four icons with no text and each one of them links to a social media website: Twitter, Facebook, Instagram and YouTube. 
 - The footer centre aligns in response to smaller screen sizes.
 
-![Screenshot of Footer](..assets/../assets/images/footer.png)
+![Screenshot of Footer](../Daily-Mindfulness//assets/images/footer.png)
 
 Features Left to Implement 
 --------------------------
