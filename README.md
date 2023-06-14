@@ -4,6 +4,8 @@ The website also offers a sign-up page for a newsletter for the user to keep upd
 
 The site is targeted to anybody who wants to learn about mindfulness and reinforces how to integrate it into life recognising mindful meditation as a habit that needs to be practised daily. It is targeted to anybody interested. 
 
+![Screenshot of responsivity](assets/images/amiresponsive.jpg)
+
 Features
 ========
 
