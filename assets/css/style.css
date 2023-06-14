@@ -63,8 +63,8 @@ body {
 /* to apply to all named elements */
 
 section {
-    height: 100vh;
-    width: 100%;
+    height: 600px;
+    width: 1200px;
 }
 
 h1, h2 {
@@ -208,6 +208,7 @@ ol {
 
 #types2 {
     margin-top: 50px;
+    height: 100%;
 }
 
 #types > h2 {
